@@ -1,0 +1,51 @@
+div{
+    border: 1px solid red;
+}
+.banniere{
+    height: 350px;
+}
+.navigation{
+    height: 100px;
+}
+.navigation li{
+    display: inline;
+    padding: 10px;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+
+.img_article{
+width: 190px;
+height: 220px;
+
+}
+article{
+    display: flex;
+    width: 1200px;
+   margin-left: 190px;
+}
+.interieur_article{
+    margin-left: 90px;
+}
+.titre_article{
+   text-align: center;
+}
+.insta{
+    height: 500px;
+}
+footer{
+    display: inline-flex;
+}
+.div_footer{
+width: 500px;
+}
+.tag_footer{
+    text-align: center;
+}
+.reseau_footer{
+    text-align: right;
+}
