@@ -6,35 +6,54 @@
     <title>Accueil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="main.js"></script>
 </head>
 <body>
+
     <!-- HEADER -->
-    <header>
-        <div class="banniere">
-            <img src="" alt="">
+    <header class>
+        <div class="="col-lg-12 col-md-12 col-sm-12"">
+            <div class="banniere">
+                <img src="img/ban.jpeg" alt="Banniere">
+            </div>
+
+            <div class="logo">
+                <a> <img src="img/cibus-white.png"> </a>
+            </div>
+
+            <div class="reseau_header">
+                <ul>
+                  <li><a href="https://www.facebook.com/buzzfeedtasty/"><i class="fab fa-facebook-f"></i></i></a></li>
+                  <li><a href="https://www.instagram.com/buzzfeedtasty/?hl=fr"><i class="fab fa-instagram"></i> </li>
+                  <li><a href="https://twitter.com/tasty?lang=fr"><i class="fab fa-twitter"></i> </a> </li>
+                </ul>
+            </div>
+
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="">Articles</a></li>
+                    <li><a href="">A propos</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="navigation">
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="">Article</a></li>
-                <li><a href="">A propos</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </nav>
     </header>
+
      <!-- Corps de page -->
     <section>
         <div class="dernier_article">
-                <h1 class="titre_article">NOTRE DERNIER ARTICLE</h1>
-            <article>
-                <img class="img_article" src="img/food-porn.jpg" alt="">
-                <div class="interieur_article">
-                <h2>Titre de l'article</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit recusandae a laudantium repellat qui quis commodi eius magni, amet, ipsa blanditiis. Consectetur quidem ratione quisquam repudiandae numquam quaerat esse magni?</p>
-                <a href="">Voir plus...</a>
-            </div>
-            </article>
+            <h1 class="titre_article">NOTRE DERNIER ARTICLE</h1>
+                <article>
+                    <img class="img_article" src="img/food-porn.jpg" alt="">
+                    <div class="interieur_article">
+                        <h2>Titre de l'article</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit recusandae a laudantium repellat qui quis commodi eius magni, amet, ipsa blanditiis. Consectetur quidem ratione quisquam repudiandae numquam quaerat esse magni?</p>
+                        <a href="">Voir plus...</a>
+                    </div>
+                </article>
         </div>
         <div class="insta">
 
@@ -46,25 +65,32 @@
                 <h3>Contenu du site</h3>
             <ul class="contenu_site_footer">
                 <li><a href="#">Accueil</a></li>
-                <li><a href="">Article</a></li>
+                <li><a href="">Articles</a></li>
                 <li><a href="">A propos</a></li>
                 <li><a href="">Contacts</a></li>
             </ul>
         </div>        
         <div class="tag_footer div_footer">
-                <h3>TAGS</h3>
-            <ul class="tag">
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
+            <h3>TAGS</h3>
+                <ul class="tag">
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
         </div>
         <div class="reseau_footer div_footer">
-                <h3>Suivez nous !</h3>
-
+            <h3>Suivez nous !</h3>
+                <ul>
+                  <li><i class="fab fa-facebook-f"></i> Facebook </li>
+                  <li><i class="fab fa-instagram"></i> Instagram</li>
+                  <li><i class="fab fa-twitter"></i> Twitter</li>
+                </ul>
         </div>
     </footer>
-    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
